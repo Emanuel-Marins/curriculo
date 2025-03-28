@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emanuel Domingos Marins</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #34495e;
+    }
+
+    .profile-img {
+      display: block;
+      margin: 20px auto;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Emanuel Domingos Marins</h1>
+    <nav>
+      <a href="#apresentacao">Apresentação</a>
+      <a href="#resumo">Resumo</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#formacao">Formação</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#links">Links</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="apresentacao">
+      <h2>Apresentação</h2>
+      <img src="WhatsApp%20Image%202025-03-28%20at%2012.45.57.jpeg" alt="Foto de Emanuel" class="profile-img">
+      <p>Olá! Meu nome é Emanuel Domingos Marins, tenho 19 anos, sou natural de Niterói - RJ e moro em Maricá - RJ. Sou estudante de Engenharia de Software, com experiência administrativa e foco em tecnologia e inovação.</p>
+    </section>
+
+    <section id="resumo">
+      <h2>Resumo</h2>
+      <p>Sou uma pessoa comunicativa, organizada e dedicada, com facilidade para aprender e trabalhar em equipe. Tenho conhecimento em montagem e manutenção de computadores, segurança da informação e rotinas administrativas.</p>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiência Profissional</h2>
+      <ul>
+        <li>Jovem Aprendiz - Viação Amparo (05/2024 a 05/2025)</li>
+      </ul>
+      <p><strong>Atividades:</strong></p>
+      <ul>
+        <li>Auxílio em atividades administrativas e operacionais</li>
+        <li>Atendimento ao público</li>
+        <li>Organização de documentos e processos</li>
+      </ul>
+    </section>
+
+    <section id="formacao">
+      <h2>Formação Acadêmica</h2>
+      <ul>
+        <li>Graduação em Engenharia de Software (Cursando)</li>
+        <li>Curso Técnico em Administração</li>
+        <li>Ensino Médio Completo</li>
+      </ul>
+    </section>
+
+    <section id="cursos">
+      <h2>Cursos Complementares</h2>
+      <ul>
+        <li>Segurança em Tecnologia da Informação – Bradesco</li>
+        <li>LGPD para Gestão Pública – SEBRAE</li>
+        <li>Almoxarife – SEST SENAT</li>
+        <li>Noções de Planejamento no Transporte – SEST SENAT</li>
+        <li>Operador de Drones – SEST SENAT</li>
+        <li>Sistemas de Informação Administrativos para Empresas – Mundi</li>
+        <li>Transporte de Passageiros com Necessidades Especiais – SEST SENAT</li>
+        <li>Montagem e Manutenção de Computadores</li>
+        <li>Despachante de Ônibus Rodoviário – SEST SENAT</li>
+        <li>Gestão de Estoque Mantendo o Estoque em Dia – SEBRAE</li>
+        <li>Fiscal de Tráfego – SEST SENAT</li>
+        <li>Auxiliar Administrativo – SEST SENAT</li>
+        <li>Auxiliar de Almoxarifado – SEST SENAT</li>
+      </ul>
+    </section>
+
+    <section id="links">
+      <h2>Links Úteis</h2>
+      <ul>
+        <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/" target="_blank">MDN Web Docs</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Formulário de Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Emanuel Domingos Marins | Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+
+</html>
